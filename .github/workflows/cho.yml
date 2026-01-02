@@ -6,7 +6,8 @@ name: cho-workflows
 on:
   # push 이벤트가 발생했을 때 실행
   # 즉, 누군가 이 저장소에 push 하면 실행된다
-  push:
+  #push:
+  workflow_dispatch:
 
 # 실제로 실행될 작업(job) 정의
 jobs:
